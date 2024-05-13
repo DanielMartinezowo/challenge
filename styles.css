@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: rgb(216, 191, 216);
+
+}
+
+header{
+    width: 100%;
+    height: 80px;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+  
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedortexto{
+position: absolute;
+left: 100px;
+top: 20px;
+padding-left: 200px;
+width: 1000px;
+height: 500px;
+font-family: "Inter", sans-serif;
+}
+
+.cajatexto{
+    cursor: pointer;
+    width: 50%;
+    height: 100%;
+    border-radius: 1%;
+    background-color: rgb(245, 245, 220);
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+
+}
+.cajatexto::placeholder{
+    color:rgb(128, 79, 173)
+    
+}
+.alerta{
+    position: absolute;
+    top: 550px;
+    left: 355px;
+    display: flex;
+    color: #454545;
+}
+
+
+.botones{
+    position: absolute;
+    top: 600px;
+    height: 80px;
+    padding-left: 10%;
+    padding-top: 15px;
+}
+.btton-encriptar{
+    width: 328px;
+    height: 67px;
+    color: #495057;
+    border: 1px solid #454545;
+    background-color: rgb(245, 245, 220);
+    border-radius: 24px;    
+    padding: 18px 36px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgba(195, 134, 252, 0.63);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+
+}
+.btton-encriptar:hover{
+    box-shadow: inset 400px 0 0 0 rgba(195, 134, 252, 0.63);
+
+}
+.btton-desencriptar{
+    width: 328px;
+    height: 67px;
+    border: 1px solid #454545;
+    border-radius: 24px;
+    background-color: rgba(195, 134, 252, 0.63);
+    color: #454545;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0  rgb(245, 245, 220);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+
+}
+
+.btton-desencriptar:hover{
+    box-shadow: inset 400px 0 0 0 rgb(245, 245, 220);
+}
+
+.seccion-desencriptar{
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 800px;
+    padding-right: 40px;
+    background-color: #ca9de7;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+
+}
+
+.contenedor-dibujo{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+
+.parrafo{
+    position: absolute;
+    box-sizing: border-box;
+    top: 355px;
+    left: 40px;
+}
+
+    .parrafo h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #343A40;
+}
+
+.parrafo p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #495057;
+}
+
+.contenedor-resultado{
+    position: absolute;
+    bottom: 200px;
+    top: 40px;
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+
+}
+
+.contenedor-resultado p{
+    color: #495057;
+    font-size: 25px;
+}
+
+.copiar{
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    top: 470px;
+    padding-left: 15px;
+    background-color: #ca9de7;
+
+}
+
+.btton-copiar{
+    width: 100px;
+    height: 60;
+    border-radius: 24px;
+    color: #495057;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    border: 1px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    right: 4px;
+    box-shadow: inset 0 0 0 0 rgba(195, 134, 252, 0.63);
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+    transition: ease-out 0.5s;
+}
+
+.btton-copiar:hover{
+    box-shadow: inset 400px 0 0 0 rgba(195, 134, 252, 0.63);
+}
+
+.ocultar{
+    display: none;
+}
